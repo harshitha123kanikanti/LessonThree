@@ -8,6 +8,7 @@
 body {
     font-family: 'Noto Sans JP',
         sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -85,6 +86,7 @@ hr {
 }
 
 .hero .hero-head {
+    text-align: center;
     font-size: 2rem;
     color: darkmagenta;
 }
@@ -99,4 +101,18 @@ hr {
 }
 .ow{
     background-color: var(--grey-color);
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: darkred;
+    border-top-right-radius: 1rem;
+    
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
