@@ -38,3 +38,37 @@ hr{
 display: inline;
 padding: 0rem 0.5rem;
  }
+ .navigation{
+     background-color: var(--primary-color);
+     color: white;
+     padding: 1rem;
+     border-bottom-left-radius: 1rem;
+ }
+ .navigation .nav-brand{
+     font-weight: bold;
+ }
+ .navigation li{
+     color: white;
+ }
+ .navigation .nav-pills{
+     text-align: right;
+ }
+ .navigation .link-active{
+     font-weight: bolder;
+ }
+ .hero{
+     padding: 2rem;
+     text-align: center;
+ }
+ .hero .hero-img{
+     max-width: 350px;
+     display: block;
+     margin: auto;
+ }
+ .hero .hero-head{
+     font-size: 2rem;
+     color: darkmagenta;
+ }
+ .hero .hero-head .head-inverted{
+     color: var(--primary-color);
+ }
